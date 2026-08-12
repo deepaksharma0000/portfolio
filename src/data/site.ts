@@ -5,7 +5,7 @@ export const siteConfig = {
     "Full-Stack Developer building scalable web applications, APIs & real-world digital products.",
   summary:
     "I design and ship production systems across FinTech, SaaS, marketplaces, and booking platforms — from React/Next.js interfaces to Node.js APIs, real-time services, broker integrations, and cloud-backed deployments.",
-  yearsExperience: "3+",
+  yearsExperience: "5+",
   email: "Deepaksharmacs45@gmail.com",
   phone: "+91 8770918364",
   phoneHref: "tel:+918770918364",
@@ -23,12 +23,12 @@ export const siteConfig = {
   ],
   stats: [
     {
-      value: "3+",
+      value: "5+",
       label: "Years Experience",
       detail: "Shipping production full-stack software",
     },
     {
-      value: "10+",
+      value: "30+",
       label: "Production Projects",
       detail: "Verified from real repositories",
     },

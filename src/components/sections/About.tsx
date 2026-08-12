@@ -1,3 +1,4 @@
+import { siteConfig } from "@/data/site";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 
@@ -16,9 +17,9 @@ export function About() {
           <div className="space-y-5 text-base leading-relaxed text-[var(--fg-muted)] sm:text-lg">
             <p>
               I&apos;m Deepak Sharma, a Full-Stack Developer with{" "}
-              <span className="text-[var(--fg)]">3+ years</span> of hands-on experience
-              shipping production applications across FinTech, SaaS, marketplaces, booking
-              systems, and mobile products.
+              <span className="text-[var(--fg)]">{siteConfig.yearsExperience} years</span> of
+              hands-on experience shipping production applications across FinTech, SaaS,
+              marketplaces, booking systems, and mobile products.
             </p>
             <p>
               On the backend I work with Node.js, Express/Fastify, TypeScript, REST APIs,
